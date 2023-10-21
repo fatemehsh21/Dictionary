@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ae9cff;
+    font-family: "Spartan", sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 35px 40px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    padding: 80px 50px;
+    width: 90vmin;
+    position: absolute;
+}
+
+.container .search-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container .search-box input {
+    width: 70%;
+    padding: 5px;
+    border: none;
+    border-bottom: 3px solid #ae9cff;
+    margin-right: 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+.container .search-box button {
+    background-color: #ae9cff;
+    color: #fff;
+    padding: 15px 0;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.container .result {
+    position: relative;
+}
+
+.container .result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.container .result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.container .result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container .result span {
+    font-size: 14px;
+    color: #b3b6d4;
+    margin: 20px 0 10px 0;
+}
+
+.container .result p {
+    font-size: 14px;
+    color: #575a7b;
+    margin-top: 20px;
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
