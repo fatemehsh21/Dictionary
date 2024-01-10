@@ -45,7 +45,7 @@ body {
     background-color: #ae9cff;
     color: #fff;
     padding: 15px 0;
-    width: 25%;
+    width: 23%;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -91,4 +91,19 @@ body {
 .error {
     margin-top: 80px;
     text-align: center;
+}
+
+@media (max-width:799px) {
+    .container{
+        padding: 40px 15px;
+        width: 95%;
+       
+    }
+    .container .search-box button {
+        padding: 10px 0;
+        width: 20%;
+    }
+    .container .search-box input {
+        margin-right: 15px;
+    }
 }
